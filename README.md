@@ -1,5 +1,3 @@
 # Responsive Card Design
-Deployed at https://aesthetic-zabaione-f7ce1f.netlify.app/![Uploading cardUI.png…]()
 
-
-![image](https://user-images.githubusercontent.com/91147803/199485010-7a2e8223-958d-4479-a99b-7ce25728badc.png)
+![cardUI](https://user-images.githubusercontent.com/91147803/199485358-9b6a3a19-1c4f-4bd9-ab48-da4e8ece1a92.png)
