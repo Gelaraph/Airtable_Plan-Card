@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+h1 {
+  text-align: center;
+}
+.card-container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.card {
+  border-radius: 12px;
+  width: 270px;
+  padding: 12px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 65px;
+}
+.heading {
+  padding-bottom: 50px;
+}
+.secondCard {
+  background-color: rgb(255, 234, 182);
+}
+.thirdCard {
+  width: 290px;
+  background-color: rgb(208, 240, 253);
+  margin-top: 0px;
+  padding-top: 0;
+  padding: 0;
+}
+.fourthCard {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-weight: bold;
+}
+h3,
+h2 {
+  text-align: start;
+}
+h2,
+.bold {
+  font-family: "Inter", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+ul {
+  padding-inline-start: 17px;
+  list-style: none;
+}
+.card p,
+.card ul {
+  text-align: start;
+}
+button {
+  width: 16rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 50px;
+  border: 0.5px solid;
+  font-size: 18px;
+  outline: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+button:hover {
+  background-color: #f3f2f2;
+}
+.thirdCard button {
+  background-color: #2d7ff9;
+  border: none;
+}
+
+.thirdCard button:hover {
+  background-color: #097ccc;
+}
+.flex-display {
+  display: flex;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.128px;
+  word-spacing: 0px;
+  font-weight: 400;
+  text-decoration: none solid rgb(51, 51, 51);
+}
+.flex-display p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+img {
+  height: 30px;
+}
+.lines {
+  border-bottom: 1px dashed black;
+}
+
+.sample {
+  display: flex;
+  justify-content: center;
+}
+.bill {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.svg-div {
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.secondCard .bill {
+  margin-top: 30px;
+}
+
+.firstCard button {
+  margin-top: 50px;
+}
+.pad {
+  padding: 12px;
+}
+.top {
+  background-color: #2d7ff9;
+  padding-bottom: 15px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin-top: 0;
+  top: 0;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+.top h2 {
+  font-size: 16px;
+  margin-top: 0;
+  color: white;
+  font-style: bold;
+}
+.firstCard {
+  border: 1px solid black;
+}
+
+.bold {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+  }
+  .card {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 50px;
+  }
+  .card {
+    width: 80%;
+  }
+}
